@@ -1,0 +1,63 @@
+body{
+  background-color: #ffffff;
+
+}
+H1{
+  text-align: center;
+  font-size: 60px;
+}
+mark:hover {
+  box-shadow: 0 0 5px rgba(33,33,33,.2); 
+}
+
+.App{
+  background-color:  #E6E6FA;
+  box-shadow: 1px  1px #e4dbeb;
+  border-radius: 18px;
+  min-height: 500px;
+  width: 500px;
+  margin: 40px auto;
+}
+.App:hover {
+  box-shadow: 0 0 5px rgba(33,33,33,.2); 
+}
+
+
+#to-do-form input{
+  background-color: #A9A9A9;
+  border: 0;
+  height: 50px;
+  width: 200px;
+  padding: 0 50px;
+  margin: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  color:#fff;
+}
+
+#to-do-form input:hover {
+  box-shadow: 0 0 3px #000000; 
+}
+
+#to-do-form input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+
+#to-do-form input:focus,#to-do-form button:focus{
+  outline: none;
+}
+
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #778899;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+#to-do-form button:hover {
+  box-shadow: 0 0 3px #000000; 
+}

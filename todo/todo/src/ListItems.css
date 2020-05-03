@@ -1,0 +1,46 @@
+.list{
+    color: #fff;
+    width: 400px;
+    background-color: #ADD8E6;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+}
+
+.list:hover {
+    box-shadow: 0 0 15px rgba(33,33,33,.2); 
+  }
+
+.list p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+.faicons{
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+.list input{
+    background-color:transparent ;
+    border: 0;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+}
+
+.list p input:focus{
+    outline: none;
+}
+
+.icon:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
